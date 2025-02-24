@@ -20,61 +20,111 @@
 </head>
 
 <body>
-    
-        
+
+
     <div class="marquee-container overflow-hidden bg-light shadow-sm">
         <div class="marquee-content ">
-          <div class="marquee-item   text-black ">free delivery on order above 3000pkr</div>
+            <div class="marquee-item   text-black ">free delivery on order above 3000pkr</div>
         </div>
     </div>
-            <!-- Header Section -->
-        <header>       
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container">
-                    <a class="navbar-brand fw-bold" href="#" style="font-size: 22px;">Waqar Store</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#"> <i class="fas fa-home me-2"></i>Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"> <i class="fas fa-box me-2"></i>  Product</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"> <i class="fas fa-tags me-2"></i>Special Deals</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">  <i class="fas fa-phone  me-2"> </i> Contact us </a>
-                            </li>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block bg-dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#" style="font-size: 22px;">Waqar Store</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"> <i
+                                    class="fas fa-home me-2"></i>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-box me-2"></i> Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-tags me-2"></i>Special Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-phone  me-2"> </i> Contact us </a>
+                        </li>
 
-                        </ul>
-                    </div>
-                    <div class="dropdown">
-                        <a class="dropdown-toggle text-white text-decoration-none" href="#" role="button" id="accountDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="fas fa-user"></i> Account
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="accountDropdown">
-                          <li><a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt me-2"></i>Login</a></li>
-                          <li><a class="dropdown-item" href="#"><i class="fas fa-user-plus me-2"></i> Sign Up</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown ms-3">
-                        <a class="dropdown-toggle text-white text-decoration-none" href="#" role="button" id="cartDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="fas fa-shopping-cart"></i> Cart
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="cartDropdown">
-                          <li><a class="dropdown-item" href="#"><i class="fas fa-shopping-cart me-2"></i>Cart</a></li>
-                          <li><a class="dropdown-item" href="#"><i class="fas fa-heart me-2"></i>Wishlist</a></li>
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
-            </nav>
-        </header>
+                <div class="dropdown">
+                    <a class="dropdown-toggle text-white text-decoration-none" href="#" role="button"
+                        id="accountDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user"></i> Account
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="accountDropdown">
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt me-2"></i>Login</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-user-plus me-2"></i> Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown ms-3">
+                    <a class="dropdown-toggle text-white text-decoration-none" href="#" role="button" id="cartDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-shopping-cart"></i> Cart
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="cartDropdown">
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-shopping-cart me-2"></i>Cart</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-heart me-2"></i>Wishlist</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-dark bg-dark fixed-bottom d-lg-none">
+            <div class="container-fluid d-flex justify-content-around">
+                <a class="nav-link text-white text-center" href="#">
+                    <i class="fas fa-home"></i><br>Home
+                </a>
+                <a class="nav-link text-white text-center" href="#">
+                    <i class="fas fa-box"></i><br>Product
+                </a>
+                <a class="nav-link text-white text-center" href="#">
+                    <i class="fas fa-tags"></i><br>Deals
+                </a>
+                <a class="nav-link text-white text-center" href="#">
+                    <i class="fas fa-user"></i><br>Account
+                </a>
+            </div>
+        </nav>
+        <!-- Mobile Header (Visible in Mobile, Hidden on Desktop) -->
+        <div
+            class="container-fluid bg-white shadow-sm py-2 d-flex align-items-center justify-content-between px-3 d-block d-lg-none">
 
+            <!-- Name -->
+            <span class="fw-bold text-dark" style="font-size: 22px; white-space: nowrap;">Waqar Store</span>
+
+            <!-- Search Box -->
+            <!-- Search Box with Icon Inside -->
+            <div class="flex-grow-1 mx-2 position-relative">
+                <input type="text" class="form-control form-control-lg form-control-sm rounded-pill pe-5"
+                    placeholder="Search...">
+                <span
+                    class="position-absolute top-50 end-0 translate-middle-y me-2 rounded-circle bg-secondary text-white d-flex align-items-center justify-content-center"
+                    style="width: 30px; height: 30px;">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+
+
+            <!-- Cart Icon -->
+            <div class="position-relative">
+                <div class="rounded-circle bg-secondary text-white d-flex align-items-center justify-content-center"
+                    style="width: 40px; height: 40px;">
+                    <span class="fas fa-shopping-cart"></span>
+                </div>
+                <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">3</span>
+            </div>
+        </div>
+
+    </header>
+    <!-- Header Section End -->
 </body>
 
 </html>
